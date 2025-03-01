@@ -1,0 +1,24 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<suite name="FSTTests" thread-count="4" parallel="classes">
+<!--  Comment out groups to run everything  -->
+<!-- <groups>
+        <run>
+            <include name="HeaderTests" />
+        </run>
+    </groups> -->
+<parameter name="username" value="admin"/>
+<parameter name="password" value="password"/>
+<test name="FSTActivities">
+<classes>
+<class name="Activities.Activity1Test"/>
+<class name="Activities.Activity2Test"/>
+<class name="Activities.Activity3Test"/>
+<class name="Activities.Activity4Demo1Test"/>
+<class name="Activities.Activity4Demo2Test"/>
+<!--             <class name="activities.Activity5Test" />
+ -->
+<class name="Activities.Activity6Test"/>
+<class name="Activities.Activity7Test"/>
+</classes>
+</test>
+</suite>
